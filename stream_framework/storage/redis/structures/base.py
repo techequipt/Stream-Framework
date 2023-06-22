@@ -56,4 +56,3 @@ class RedisCache(object):
         else:
             results = operation(self.redis, *args, **kwargs)
         return results
-        return results
